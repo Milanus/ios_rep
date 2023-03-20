@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C21A37FA29C85C4D00271A78 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21A37F929C85C4D00271A78 /* OnBoardingViewController.swift */; };
 		C2D787F428A28D7A002DFC74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D787F328A28D7A002DFC74 /* AppDelegate.swift */; };
 		C2D787F828A28D7A002DFC74 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D787F728A28D7A002DFC74 /* LoginViewController.swift */; };
 		C2D787FD28A28D7B002DFC74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2D787FC28A28D7B002DFC74 /* Assets.xcassets */; };
 		C2D7880028A28D7B002DFC74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2D787FE28A28D7B002DFC74 /* LaunchScreen.storyboard */; };
 		C2D7880A28A295D8002DFC74 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D7880928A295D8002DFC74 /* LoginView.swift */; };
+		C2EB230C2964AC2D00E7B972 /* testVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EB230B2964AC2D00E7B972 /* testVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C21A37F929C85C4D00271A78 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
 		C2D787F028A28D7A002DFC74 /* Bankey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bankey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D787F328A28D7A002DFC74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2D787F728A28D7A002DFC74 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		C2D787FF28A28D7B002DFC74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2D7880128A28D7B002DFC74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2D7880928A295D8002DFC74 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		C2EB230B2964AC2D00E7B972 /* testVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C21A37F829C85C2B00271A78 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				C21A37F929C85C4D00271A78 /* OnBoardingViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 		C2D787E728A28D7A002DFC74 = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +67,7 @@
 		C2D787F228A28D7A002DFC74 /* Bankey */ = {
 			isa = PBXGroup;
 			children = (
+				C21A37F829C85C2B00271A78 /* Onboarding */,
 				C2D7880828A295A9002DFC74 /* Login */,
 				C2D7880728A29539002DFC74 /* Files */,
 			);
@@ -75,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				C2D787F728A28D7A002DFC74 /* LoginViewController.swift */,
+				C2EB230B2964AC2D00E7B972 /* testVC.swift */,
 				C2D7880928A295D8002DFC74 /* LoginView.swift */,
 			);
 			name = Login;
@@ -150,9 +164,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2EB230C2964AC2D00E7B972 /* testVC.swift in Sources */,
 				C2D7880A28A295D8002DFC74 /* LoginView.swift in Sources */,
 				C2D787F828A28D7A002DFC74 /* LoginViewController.swift in Sources */,
 				C2D787F428A28D7A002DFC74 /* AppDelegate.swift in Sources */,
+				C21A37FA29C85C4D00271A78 /* OnBoardingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
